@@ -1,0 +1,559 @@
+
+
+
+/*
+@font-face {
+ font-family: MyCustomFont;
+ src: url("LUDOVICO.TTF")
+}
+ *//* TTF file for CSS3 browsers */
+ /*
+@font-face {
+ font-family: MyCustomFont;
+ src: url("LUDOVICO.eot") 
+}
+*//* EOT file for IE */
+
+@font-face {
+  font-family: MyCustomFont;
+  src: url(LUDOVICO.eot);
+  src: local("Ludovicos"), url(LUDOVICO.TTF) format("truetype");
+}
+
+/* Set text highlight color Safari 
+::selection {
+	background: #ffb7b7; 
+	}
+*/
+
+/* Set text highlight color Firefox 
+::-moz-selection {
+	background: #ffb7b7; 
+}
+*/
+
+input, select {
+	background-color: #fafafe;
+	padding:2px;
+	border:1px solid #99C;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-opera-border-radius:2px;
+	-khtml-border-radius:2px;
+	border-radius:2px;
+	background:white;
+	font-size:1.1em;
+}
+
+a
+{ 
+ color:#3333ff;}
+a:active
+{color:#ce33ff;}
+a:visited
+{color:#ce0000;}
+a:hover
+{color:#008800;}
+body
+{
+	font-size: 0.712em;
+	line-height: 1.624em;
+	font-family: arial, tahoma, helvetica, sans-serif;
+}
+body > DIV
+{
+	font-size: 1.05em;
+	line-height: 1.524em;
+	font-family: arial, tahoma, helvetica, sans-serif;
+}
+h2 { font-family: MyCustomFont, arial, tahoma, helvetica, sans-serif; 
+	font-size: 3.112em; 
+	line-height:1.624em; 
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	background-color:inherit;
+}
+
+
+
+.marginless
+{
+	margin:0px;
+	margin-right:0px;
+	padding:0px;
+}
+
+.bibliographyEntry {
+	padding-left: 2em;
+	text-indent: -2em;
+}
+
+.cladeDescriptionTab
+{
+	font-size:0.7em;
+	line-height:0.50em;
+	border: solid 1px Transparent;
+	border-color:black;
+	border-bottom-width:0px;
+}
+.cladeDescriptionBottomTab
+{
+	margin-top:-2px;  
+	margin-bottom:2px;
+	font-size:0.7em;  
+	line-height:0.60em;  
+	border: solid 1px Transparent;
+	border-color:black;
+}
+.cladeDescriptionTabSelected
+{
+	font-size:0.7em;
+	line-height:0.50em;
+	border: solid 2px Transparent;
+	border-color: red;
+}
+.editable {
+	color:black;
+	padding:0.488em;
+	line-height:1.6em;
+	background-color: #fefcff ;
+}
+.cladeDescriptionTab B,
+.cladeDescriptionTab I
+{
+	font-size:1.24em;
+}
+.cladeDescriptionBottomTab B,
+.cladeDescriptionBottomTab SMALL
+{
+	font-size:1.24em;
+}
+.cladeDescriptionTabSelected B,
+.cladeDescriptionTabSelected SMALL
+{ 
+	font-size:1.24em;
+}
+.cladeDescriptionTabSelected I , .cladeDescriptionTab I
+{
+	font-size:1.4em;
+}   
+.descriptionTextLabel{font-weight:bold;font-size:0.812em; line-height:1.5em;vertical-align:middle; color:#9c96a0; font-style:italic; }
+.descriptionText {font-size:0.812em; line-height:1.5em; padding:9px;border:1px dotted #ddd; background-color:#fdfcfe;}
+.tenpad{padding:10px 10px 10px 10px;font-size:1em;font-weight:normal;}
+.rankDescription
+{ padding:-10px; }
+  
+.glow {
+    text-shadow: white 0px 0px 6px;
+	FILTER: Glow(Color=#fffff, Strength=20);
+}
+.blockquote {padding:8px;}
+#bibliography li{
+	list-style-image: none;
+	list-style: none;
+	list-style-type: none;
+	line-height: 20px;
+	text-decoration: none;
+	padding: 4px;
+	}
+.bibliographicList dd{
+	padding-left: 2em;
+	text-indent: -2em;
+	padding-right: 30px;
+	padding-left: 30px;
+	}
+.collectionSpores li 
+{
+	list-style-type: none;
+	padding:3px;
+	border:1px solid #99C;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-opera-border-radius:2px;
+	-khtml-border-radius:2px;
+	border-radius:2px;
+	background:white;
+}	
+.listManagerLists, .listManagerLists li , .listItems li form input
+{
+	font-size:11px;
+	margin-top:1px;
+	margin-bottom:1px;
+	text-align:right;
+	list-style-type: none;
+	padding:2px;
+	border:1px solid #99C;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-opera-border-radius:2px;
+	-khtml-border-radius:2px;
+	border-radius:2px;
+}	
+.newItem input
+{font-style:italic;color:#bbb;}	
+#newItem input {
+	font-size:10px; font-weight:bold;
+}
+.chartSporeList {
+	list-style-type: none;
+	text-align:center;
+	padding:1px;
+	float:left;
+	font-size:10px;
+}
+.chartCollectionSpores {
+	width:101%;
+	width:101%;
+}
+.chartSpore {
+	list-style-type: none;
+	text-align:center;
+	border:1px solid black;
+	padding:0px;
+	padding-top:3px;
+	padding-bottom:2px;
+	margin-top:1px;
+	width:96%;
+	font-size:0.9em;
+	line-height:1.35em;
+	font-family : arial;
+}
+
+
+.unicode { font-family: "Arial Unicode MS",Calibri,Cambria,Code2000,"Lucida Sans Unicode" }
+
+.dotted{ border:1px dotted black; padding:2px;}
+
+
+ICONLABEL {font-size:0.77em;}
+
+#howToNewFormDisplay  LI {  
+	margin:0px; 
+	list-style-type: none; 
+	margin-top:6px; 
+	width:100%;
+	text-align:right;
+	vertical-align:middle; 
+	}
+#howToNewFormDisplay  INPUT, #howToNewFormDisplay  TEXTAREA , #howToNewFormDisplay  SELECT { margin:0px; width:490px;  float:right;  margin-right:10px;}
+#howToNewFormDisplay  SELECT { margin:0px; width:240px;  float:right;  margin-right:10px;}
+#howToNewFormDisplay  DIV { margin:0px; width:554px;  float:right; min-height:4em; margin-right:10px; }
+#howToNewFormDisplay  BUTTON { margin-left:420px; width:150px }
+
+
+#howToDisplay LI {
+	list-style-type: none; margin-bottom:1em; 
+	border:1px solid #9999CC;
+	padding:20px;
+	display:block;
+	width:93%;	
+	font-size:.962em;
+	background-color:#f9fafd;
+	margin-top:3px;
+	}
+#howToDisplay LI SPAN .editable { 
+	background-color:none;
+	padding:0px;
+	margin:0px;
+	min-height:60px;
+}
+#howToDisplay LI TOPIC { 
+	width:98%; float:left; font-weight:bold; color:green; 
+	border:1px solid #99C;
+	padding:5px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-opera-border-radius:3px;
+	-khtml-border-radius:3px;
+	border-radius:3px; 
+	background:#ccd;}	
+#howToDisplay LI TOPIC TEXTAREA{ 
+	background-color:inherit; 
+	font-size: 1.592em; 
+	font-family:arial;
+	font-weight:bold; color:green; 
+	border:0px solid #99C;
+	padding:0px;
+	width:95%;
+	height:22px;
+	margin:0px;
+	overflow:visible;
+	margin-top:1px;
+	}
+#howToDisplay LI TOPIC INPUT:FOCUS{  
+	border:1px dotted #99C;
+	padding:2px;
+	}
+#howToDisplay LI SUBTITLE{ width:100%; margin-top:-0.5em ;float:left; font-size: 1em; font-weight:bold; font-style:italic; color:orange; }
+#howToDisplay LI SUBTITLE TEXTAREA{ 
+	background-color:inherit; 
+	font-size: 1.5em; font-weight:bold; font-style:italic; color:orange;
+	border:0px solid #99C;
+	padding:0px;
+	width:100%;
+	padding:2px;
+	overflow:visible;
+	}
+#howToDisplay LI SUBTITLE TEXTAREA:FOCUS{  
+	border:1px dotted #99C;
+	padding:2px;
+	}
+#howToDisplay LI SUBTITLE TEXTAREA:hover{ 
+	border:1px dotted #99C;
+	padding:1px;
+	}
+	
+#howToDisplay LI ABSTRACT{ margin-left:24px; width:100%; margin-top:1em;float:left; font-size: 1em; font-style:italic;}	
+#howToDisplay LI ABSTRACT TEXTAREA{ 
+	background-color:inherit; 
+	font-size: 1.4em; 
+	border:0px solid #99C;
+	padding:0px;
+	width:85%;
+	height:36px;
+	padding:2px;
+	overflow:visible;
+	}
+#howToDisplay LI ABSTRACT TEXTAREA:FOCUS{ 
+	border:1px dotted #99C;
+	padding:1px;
+	}
+#howToDisplay LI ABSTRACT TEXTAREA:hover{ 
+	border:1px dotted #99C;
+	padding:1px;
+	}
+#howToDisplay LI ARTICLE { 
+	background-color:white;
+	font-family:  verdana, futura, tahoma, arial ;
+	padding:20px; border:1px dotted orange; width:93%; margin:0px; margin-bottom:1em; margin-top:1em; float:left; font-size: 1.1em; }
+#howToDisplay LI ARTICLE DIV { 
+	border-width:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	-opera-border-radius:0px;
+	-khtml-border-radius:0px;
+	border-radius:0px;
+	}
+#howToDisplay LI ARTICLE DIV:hover { 
+	border:1px dotted red;
+	}
+#howToDisplay LI EDITOR{ font-size:0.7em; float:right; margin-top:1em;  margin-bottom:2em; font-size: 0.98em;  }
+
+#howToDisplay LI LASTMOD{  margin-top:1em;  font-size: 0.9em; }
+
+#howToDisplay LI GROUP INPUT { margin-top:4px;background-color:inherit;border:0px; font-size: 1.05em; color:#aaa; margin-left:2px; float:left; font-weight:bold;  }
+#howToDisplay LI GROUP INPUT:FOCUS{  
+	border:1px dotted #99C;
+	}
+#howToDisplay DL GROUP { margin-top:4px;font-size: 1.1em; color:#aaa; margin-left:20px; font-weight:bold;  }
+
+#howToDisplay DD { font-size: 1.1em; font-weight:bold; color:green;}
+
+#howToDisplay DD TOPICICONS { 
+	background-color:inherit; 
+	font-size: 0.971em;  
+	font-weight:bold; color:#CCC; 
+	margin-left:51px; white-space:nowrap; width:100%;
+	}
+#howToDisplay DD RELTOPICTITLE {
+	white-space:nowrap;
+	width:100%;
+}
+#howToDisplay DD TAGS { 
+	background-color:inherit; 
+	font-size: 0.971em; 
+	font-weight:bold; color:#BCC; 
+	width:80%;margin-left:51px; 
+	}
+#howToDisplay DD TAGS INPUT{  
+	background-color:inherit; 
+	font-size: 1.154em; width:80%;
+	font-weight:bold; color:#CCC; 
+	border:0px solid #99C;
+	}
+#howToDisplay DD TAGS INPUT:FOCUS{  
+	border:1px dotted #99C;
+	padding:2px;
+	}
+#howToDisplay LI SUBTOPIC{ margin-left:-8px; width:100%; float:left; font-size: 1.324em; font-weight:bold; color:green; 
+	border:1px solid #99C;
+	padding:6px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-opera-border-radius:3px;
+	-khtml-border-radius:3px;
+	border-radius:3px; }
+#howToDisplay LI SUBTOPIC{ margin-left:-8px; width:100%; float:left; font-size: 1.324em; font-weight:bold; color:green; 
+	border:1px solid #99C;
+	padding:6px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-opera-border-radius:3px;
+	-khtml-border-radius:3px;
+	border-radius:3px; }
+REASSIGNMENT{width:95%; overflow:visible;}
+REASSIGNMENT SELECT { float:left; }
+REASSIGNMENT DIV{ float:left; }
+
+.HTLINKS LI { 
+	margin:2px; 
+	margin-bottom:6px;
+	float:center;
+	width:96%;
+	text-align:center;
+	padding:2px;
+	list-style-type: none;
+	font-weight:bold;
+	border:1px solid #aaa;
+	background-color:#ccf;
+	}
+.HTLINKS LI:hover { 
+	background-color:#eee;
+	border:1px dashed #999;
+	}
+	
+.HTLINKS {
+	background:white;
+	border:1px solid #99C;
+	padding:6px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-opera-border-radius:3px;
+	-khtml-border-radius:3px;
+	border-radius:3px;
+	width:inherit;
+	text-align:center;
+	}
+	
+#otherBibliographyLinks LI { margin-top:1em; float:left;}
+
+TAGSORTING {
+	border:1px solid #99C;
+	padding:4px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-opera-border-radius:3px;
+	-khtml-border-radius:3px;
+	border-radius:3px;
+	width:100%;
+	overflow:inherit; } 
+.sortTags {
+	width:99%; 
+	padding:2px;
+	border:2px solid white;  
+	background:#ddf; 
+	font-size:1.3em; 
+	line-height:1.4em;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-opera-border-radius:3px;
+	-khtml-border-radius:3px;
+	border-radius:3px;
+	}
+
+#howToSorting {  background-color:white; text-align:center;  }
+.howToSortingIsland  {  width:96%; text-align:center;  margin-left:35px; margin-right:auto;  }
+
+.howToSorting  { 
+	border:1px solid #99C;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-opera-border-radius:3px;
+	-khtml-border-radius:3px;
+	border-radius:3px;
+	padding:6px;
+
+	}
+	
+	
+
+YANGQ {font-family: times, serif ;}
+YANGQPRIME { font-family: times, serif ; font-weight: bold;}	
+
+sporographlayer { width:560px; float:left; font-size:0.92em; }
+layerdefinition {float:right; font-size:0.92em; }
+sporographlayer input , .newPicker{ width:50px; font-size:0.92em; }}
+sporographlayer .tinyinput { width:50px;     }
+
+#layerTitleHider {display:none;}
+#sortableSporographLayers { list-style-type: none; margin: 0; padding: 0; width: 95%; }
+#sortableSporographLayers li { list-style-type: none; margin: 0 5px 5px 5px; padding: 2px; margin-top:4px;font-size: 0.95em; height: 1.4em; }
+html>body #sortableSporographLayers li { height: 1.4em; line-height: 1.1em; margin-top:1px;}
+html>body #sortableSporographLayers li  input { 
+	height: 1.45em ; line-height: 1.4em ;  font-size: 0.84em ; }
+.clearInput { 
+	font-size: 0.84em ; padding-left:2px; padding-right:2px;
+	background-color: #dedede  ; border: 1px white solid ; }
+	 
+.ui-state-highlight { height: 1.5em; line-height: 1.2em; }
+
+#sortableA { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#sortableA li { list-style-type: none; margin: 0 5px 5px 5px; padding: 4px; font-size: 1.2em; height: 1.5em; }
+html>body #sortableA li { height: 1.5em; line-height: 1.2em; }
+.ui-state-highlight { height: 1.5em; line-height: 1.2em; }
+	
+.linkList UL {list-style-type: none; }
+.linkList LI {list-style-type: none; margin-left:20px; height:120px; width:100%;}
+
+.linkList IMG {
+max-width:100px;
+max-height:100px;
+width: expression(this.width > 100 ? 100: true);
+height: expression(this.height > 100 ? 100: true);
+}
+
+.linkList span {
+overflow:auto;
+width:105px; 
+height:105px; 
+border:0px;
+text-align:center;
+margin-top:8px;
+vertical-align:bottom;
+float:left; 
+font-size: 1.8em;
+font-weight:bold;}
+
+.linkList A {
+position:relative;
+left:10px;
+top:2.3em; 
+font-size:1.4em;
+margin-left:1em;
+margin-top:0px;
+text-align:left; }
+
+div > p , blockquote > p { margin:10px;}
+
+.directoryIndexLetter {font-size:1.272em; font-weight:bold; color:#33c;}
+.directoryIndexCount {font-size:0.772em; font-weight:bold; color:#33c;}
+
+.smallTwo { line-height:0.975em;}
+.smallScroller { line-height:1.1em;font-size:0.775em;}
+
+.pageNavigation{
+    border-radius: 7px 7px 7px 7px;
+	display:none;
+	margin-bottom:1px;
+	width: (100%-5px); background-color: rgb(170, 153, 255);  
+	margin-right: 6px; border-color: white; border-width: 1px; 
+	padding: 1px 2px 2px;}
+h1 { font-size:1.145em;}
+
+img.big{
+	
+	z-index:10000;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	margin: auto;
+	padding:10px;
+	background-color: white;
+	border:1px solid black;
+	border-radius: 4px;
+	position: fixed;
+}
