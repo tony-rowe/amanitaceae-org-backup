@@ -1,0 +1,1 @@
+<?php // Dummy placeholder for static backup ?>
